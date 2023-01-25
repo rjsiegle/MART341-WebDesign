@@ -1,1 +1,12 @@
-
+# Web Design Week 2
+What is a directory, and what is its relationship to files?
+ 
+A directory is a hierarchical structure in a folder system which contains the nested sub folders or sub directories. When discussing file systems, the term directory is used instead of folders. The relationship between a file and directory is that a file is nested within a directory, or a subdirectory.  
+ 
+How are VCS useful?
+ 
+VCS, which stands for Version Control Systems are useful because they allow for team member to collaborate freely, they save different versions of work which allows users to restore previous versions as needed, they function as a backup, and they track changes made allowing users to identify and understand changes. Essentially, VCS allow all versions to remain in time, like snapshots documenting every change and allowing for easy error identifications or going backwards without having to start over.
+ 
+Do you have a favorite artistic medium? Why is it. your favorite?
+ 
+My favorite artistic medium is acrylics. I do really enjoy the convenience of using digital illustration programs like Procreate to quickly draw and be able to do so from the comfort of my couch, however the manual process of laying out paint, mixing them, and waiting for them to try feels like more of an accomplishment perhaps because it takes it so much time and creates additional work. 
