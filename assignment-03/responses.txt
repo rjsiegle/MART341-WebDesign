@@ -1,0 +1,11 @@
+What is the relationship between an IP address and DNS?
+
+The Domain Name System (DNS) translates the domain name to a specific IP address
+
+What is a cookie?
+
+A cookie is a piece of data that is stored on your computer in the form of a file.
+
+What are the three essential parts of a URL?
+
+Protocol (scheme), domain name (authority), and the path
