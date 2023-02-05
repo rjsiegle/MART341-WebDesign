@@ -6,6 +6,6 @@
 
 3. I wasn't aware about the extensions offered in studio code, so that is entirely new and seeing the **Markdown Preview Enhanced** extension makes me very happy.
 
-[Responses](.responses.txt)
+[Responses](responses.txt)
 
 ![Screenshot from Tutorial](./images/Screenshot.png)
