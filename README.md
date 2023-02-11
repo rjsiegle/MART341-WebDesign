@@ -1,2 +1,3 @@
-# MART341-WebDesign
-Repository for my Intro to Web Design Homework
+README.md
+#MART 341 - Web Design
+###Robyn Siegle
