@@ -1,0 +1,22 @@
+/* Downloads "fonts.css." */
+@font-face {
+    font-family: 'NeutraText';
+    src: url('../fonts/NeutraText-Book.otf') format('truetype');
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 700;
+ }
+ 
+ @font-face {
+   font-family: 'Metropolis';
+   src: url('../fonts/Metropolis-SemiBold.otf') format('truetype');
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Metropolis';
+   src: url('../fonts/Metropolis-Bold.otf') format('truetype');
+   font-weight: 200;
+}

@@ -1,0 +1,93 @@
+#header{
+    background-image: url("../images/Home.jpg"); 
+}
+
+body {
+    background-color: linen;
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: .75em;
+    font-weight: 500;
+    color: white;
+}
+
+.titleBorder{
+    height: 100px;
+    background-color:#353567;
+    color: #353567;
+}
+
+.titleBorder:hover{
+    background-color: #353567;
+    color: white;
+    text-indent: 30em;
+    font-family: Bebas Neue;
+}
+
+.subtitle{
+    padding-top: 25px;
+    font-size: 60px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #353567;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: Metropolis;
+}
+
+.content-paragraph:first-line{
+    font-size: 30px;
+    font-family: Metropolis;
+    line-height: 10px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 500px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #a73242;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.nav-link:visited{
+    color: #353567;
+}
