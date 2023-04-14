@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Contact">
+        <meta name="author" content="Robyn Siegle">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="./css/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="./css/style.css" type="text/css" />
+   
+    </head>
+
+<body>
+    <div id="header">
+        <h1 id="title"> Robyn Siegle - Media Artist
+        </h1>
+    </div>
+    <header>
+        <div class="site-name">
+          Robyn Siegle
+        </div>
+        <div class="menu-item">
+          <a href="index.html">Home</a>
+       </div>
+       <div class="menu-item">
+          <a href="aboutme.html">About</a>
+       </div>
+       <div class="menu-item dropdown">
+          <a href="style.html">Style</a>
+          <div class="dropdown-content">
+             <div class="dropdown-item">
+                <a href="contact.html">Contact</a>
+             </div>
+    </header>
+    <div class="content-paragraph">Thank You!</div>
+    <br/>
+    <br/>
+    <div class="content-paragraph">
+        <br>
+        <em></em>Let's Work together!
+        <br/>
+    </div>
+     <br/>
+     <div class="content-paragraph">
+         <address>
+            <br/>
+        R SIEGLE ART & DESIGN<br/>
+        201 E Park St<br />
+        Anaconda, MT 59711<br />
+        (406) 594-1224<br />
+    </address>
+    </div>
+    <br/>
+    <br/>
+    <div class="content-paragraph">
+      Schedule your appointment online
+    </div>
+    <br/>
+    <br/>
+    <!-- contact form-->
+    <form method="POST" action="thankyou.html">
+             Name:<br/>
+             <input type="text" id="name" placeholder="Enter your name" autofocus>
+             <p>
+             Booking an apointment?
+             <br/>
+             Yes <input type="radio" name="newsletter" id="newsletter" value="Y">
+             No <input type="radio" name="newsletter" id="newsletter" value="N">
+             <br />
+             <br/>
+             Leave us your contact information:
+             <br/>
+             <br/>
+             <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+             <br/>
+             <br/>
+             <input type="image" src="images/button.png" width="200"/>
+             </p>
+    </form>
+    <script>
+  document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var name = document.getElementsByName('name')[0].value;
+    var email = document.getElementsByName('email')[0].value;
+    // Perform any desired form data processing or validation here
+
+    // Display thank you message or update content dynamically
+    document.getElementById('formContainer').innerHTML = '<p>Thank you, ' + name + '! Your submission has been received.</p>';
+  });
+</script>
+
+    <div class="content-paragraph"><a href="robyn.siegle@outlook.com">Send us an email</a></div>
+</body>
+</html>
