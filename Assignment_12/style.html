@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="english">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sample Designs">
+    <meta name="author" content="Robyn Siegle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style 2.css"/>
+    </head>
+    <body>
+      <script>
+        // JavaScript function to redirect to selected page
+        function navigateToPage() {
+          var selectedOption = document.getElementById("myDropdown").value;
+          if (selectedOption !== "") {
+            window.location.href = selectedOption;
+          }
+        }
+      </script>
+  <select id="myDropdown" onchange="navigateToPage()">
+    <option value ="style.html">Style</option>
+    <option value="index.html">Home</option>
+    <option value="aboutme.html">About</option>
+    <option value="contact.html">Contact</option>
+  </select>
+        <br>
+    </head>
+        <br>
+      <div id="title">
+        <h1>
+    Colors
+        </h1>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <span class="dot two"></span>
+      <br/>
+      <br/>
+      <br/>
+      <div class="inspiration">
+        <br/>
+        <h2>
+            Alphonse Mucha,
+            <i>Daydream (Rêverie)</i> 1897
+        </h2>
+        <img src="images/daydream.jpeg" width="50%" alt="A Mucha Illustration"/>
+        <br/>
+        <p>
+          This is a beautiful neutral Mucha painting. This would make a pleasant palette.
+        </p>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <span class="dot four"></span>
+      <br/>
+      <br/>
+      <br/>
+        <div class="palette">
+          <h2>
+            Palette
+          </h2>
+          <span class="dot one"></span>
+          <span class="dot two"></span>
+          <span class="dot three"></span>
+          <span class="dot four"></span>
+          <p> #e1d5bb  #6c2006  #777f34  #db755e </p>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <span id="square"></span>
+        <p>
+            <div class="neat">
+            Between 1896 and 1904 Mucha created over one hundred poster designs for Champenois.
+           </div>
+           </p>
+        </style>
+      </body>
+    </html>
