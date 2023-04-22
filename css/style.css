@@ -244,6 +244,13 @@ footer {
         font-size: 10px;
         letter-spacing: 0.3em;
     }
+    
+    h1{
+        color: white;
+        font-family: Bebas Neue;
+        font-size: 10px;
+        letter-spacing: 0.3em;
+     }
 
     .subtitle{
         padding-top: 0px;
