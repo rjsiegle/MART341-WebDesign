@@ -209,9 +209,13 @@ footer {
  @media (max-width: 767px) {
       /* Add your CSS styles for mobile devices here */
       /* For example: */
-      body {
-        font-size: 14px;
-      }
+     
+     #header{
+    background-image: url("../images/Home.jpg"); 
+    width: 100%;
+    height: 200px;
+}
+     
       #title:hover{
         letter-spacing: .75em;
         font-weight: 100;
